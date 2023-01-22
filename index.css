@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: black;
+    background: url(https://images.unsplash.com/photo-1495195129352-aeb325a55b65?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+h1{
+  
+    font-family: 'Ubuntu';
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-weight: bolder;
+}
+h2{
+    padding-bottom: 15px;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-family: 'Ubuntu';
+}
+.box{
+    width: 495px;
+    
+    border: 2px solid black;
+    margin: auto; 
+    box-shadow: 5px 10px #888888 ; 
+    overflow: auto;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    margin: 20px;
+}
+.btn{
+    width: 100%;
+    background-color: rgb(114, 199, 58);
+    padding: 5px;
+    font-weight: bolder;
+    box-shadow: 5px 10px #558b4e ; 
+    
+}
